@@ -1,0 +1,83 @@
+
+   /* =============Slider related ======== */
+  .card_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+  }
+  .card{
+      height: 450px;
+      width: 400px;
+      background:linear-gradient(rgb(86, 72, 72), rgb(18, 146, 144));
+      border-radius: 2rem;
+      transition: var(--transition);
+  }
+
+  .card:hover{
+    background: rgb(118, 113, 113);
+  }
+  .card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_img img{
+    max-width: 2.5rem;
+    margin-top: 1rem;
+  }
+  
+  .card_para{
+    max-height: 250px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .card p{
+     padding:0.5rem;
+     font-size: 1rem;
+    
+  }
+
+  .profile{
+      display: flex;
+      gap: 1rem;
+      padding-top: 7rem;
+    
+  }
+  
+  .profile_img{
+    max-width: 25%;
+    max-height: 25%;
+  }
+
+  .profile_img img{
+     border-radius: 50%;
+  }
+
+.profile_desc{
+  padding-top: 1rem;
+}
+
+  .profile_desc h3{
+     font-size: 1.5rem;
+  }
+  
+  .profile_desc p{
+    padding: 0; 
+  }
+
+  @media screen and (max-width :450px) {
+    .swiper-button-next::after{
+      display: none;
+     }
+    
+     .swiper-button-prev::after{
+      display: none;
+     }
+     
+  }
+
+
+

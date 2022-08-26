@@ -1,0 +1,25 @@
+
+.pay_text{
+    padding-bottom: 0.5rem;
+}
+.pay_text p{
+    padding-top: 1.5rem;
+}
+
+/* =====================================Media (Small devices)======== */
+
+@media screen and (max-width :768px){
+
+    .pay_text_container button{
+              display: block;
+              margin: 0 auto;
+    }
+         
+    .pay_img{
+        width: 100%;
+        padding-top: 2rem;
+    }
+      }
+      
+    
+    

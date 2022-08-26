@@ -1,0 +1,59 @@
+.overview_text-container{
+    padding-top: -2rem;
+   
+}
+.overview_text{
+    margin: 0;
+    padding: 0;
+}
+.overview_text p{
+    padding-top: 1rem;  
+}
+.overview_text-container .btn{
+    margin-top: 2rem;
+}
+
+/* ============Overview icons section ============ */
+
+.overview_icons > div{
+    padding: 0 1rem;
+    background:linear-gradient(rgb(255, 245, 245), rgb(38, 73, 72));
+    border: 1px solid transparent;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 10px;
+}
+.overview_icons > div:hover{
+    background: rgb(118, 113, 113);
+}
+.rewards, .secure, .balance{
+    display: flex;
+    gap: 2.5rem;
+}
+._icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._icon > img{
+    width: 120%; 
+}
+
+
+/* =====================================Media (Small devices)======== */
+
+@media screen and (max-width :768px){
+
+.overview_text-container button{
+    display: block;
+    margin: 0 auto;
+   
+}
+.overview_icons{
+    margin-top: 2rem;
+}
+      
+  }
+  
+

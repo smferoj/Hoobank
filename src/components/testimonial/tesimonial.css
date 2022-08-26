@@ -1,0 +1,31 @@
+#testimonial{
+  margin-top: 3rem;
+
+}
+ .testi-para p{
+  font-size: 1.2rem;
+  text-align: justify;
+ }
+
+ .testimonial_slider{
+  padding-top: 1rem;
+ }
+
+ @media screen and (max-width :450px) {
+
+  .testi_head h1{
+    font-size: 2rem;
+    text-align: center;
+    
+  }
+  .testi-para p{
+    font-size: 0.8rem;
+    text-align: justify;
+   }
+  
+   .testimonial_slider{
+    padding:0;
+   }
+  
+   
+}

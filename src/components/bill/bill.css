@@ -1,0 +1,24 @@
+
+.bill{
+    margin-top: 1rem;
+}
+
+.bill_img img{
+    width: 100%;
+}
+
+.bill_text{
+     text-align: center;
+}
+.bill_text h1{
+    padding-bottom: 0.6rem;
+}
+
+.app{
+    display: flex;
+    gap: 2.5rem;
+}
+
+@media screen and (max-width :450px) {
+ 
+ }
